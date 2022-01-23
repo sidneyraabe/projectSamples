@@ -1,0 +1,40 @@
+﻿@model CarMastery.Models.MakeAddViewModel
+
+@{
+    ViewBag.Title = "Makes";
+}
+
+<h2>Makes</h2>
+
+@using (Html.BeginForm("Makes", "Admin", FormMethod.Post, new { enctype = "multipart/form-data", id = "formAddMake" }))
+{
+    @Html.ValidationSummary()
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Make Name</label>
+            @Html.TextBoxFor(m => m.Make.MakeName, new { @class = "form-control" })
+            <button class="btn-primary">Submit</button>
+        </div>
+    </div>
+    
+}
+
+<div class = "col-md-12">
+    <table class="table-bordered">
+        <tr>
+            <th scope="col" width="15%">Make</th>
+            <th scope="col" width="25%">DateAdded</th>
+            <th scope="col" width="60%">User</th>
+        </tr>
+
+
+        @foreach (var make in Model.Makes)
+        {
+            <tr>
+                <td>@make.MakeName</td>
+                <td>@make.DateAdded.ToShortDateString()</td>
+                <td>@make.Email</td>
+            </tr>
+        }
+    </table>
+</div>

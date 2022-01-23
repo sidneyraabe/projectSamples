@@ -1,0 +1,41 @@
+﻿@model CarMastery.Models.ModelAddViewModel
+
+@{
+    ViewBag.Title = "Models";
+}
+
+<h2>Models</h2>
+
+@using (Html.BeginForm("Models", "Admin", FormMethod.Post, new { enctype = "multipart/form-data", id = "formAddModel" }))
+{
+    @Html.ValidationSummary()
+    <div class="form-group col-md-6">
+        <label>New Model</label>
+        @Html.TextBoxFor(m => m.newModel.ModelName, new { @class = "form-control" })
+    </div>
+    <div class="form-group col-md-6" id="modelsDropdown">
+        <label>Make</label>
+        @Html.DropDownListFor(m => m.newModel.MakeId, Model.Makes, new { @class = "form-control" })
+    </div>
+    <button class="btn-primary">Save</button>
+
+}
+
+<table class="table-bordered">
+    <tr>
+        <th scope="col" width="10%">Make</th>
+        <th scope="col" width="10%">Model</th>
+        <th scope="col" width="25%">DateAdded</th>
+        <th scope="col" width="55%">User</th>
+    </tr>
+
+    @foreach (var modelListing in Model.Models)
+    {
+        <tr>
+            <td>@modelListing.MakeName</td>
+            <td>@modelListing.ModelName</td>
+            <td>@modelListing.DateAdded.ToShortDateString()</td>
+            <td>@modelListing.Email</td>
+        </tr>
+    }
+</table>

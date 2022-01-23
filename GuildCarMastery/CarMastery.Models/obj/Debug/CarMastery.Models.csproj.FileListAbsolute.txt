@@ -1,0 +1,6 @@
+C:\Users\sraab\Documents\online-net-sidneyraabe\Summatives\GuildCarMastery\CarMastery.Models\bin\Debug\CarMastery.Models.dll
+C:\Users\sraab\Documents\online-net-sidneyraabe\Summatives\GuildCarMastery\CarMastery.Models\bin\Debug\CarMastery.Models.pdb
+C:\Users\sraab\Documents\online-net-sidneyraabe\Summatives\GuildCarMastery\CarMastery.Models\obj\Debug\CarMastery.Models.csproj.CoreCompileInputs.cache
+C:\Users\sraab\Documents\online-net-sidneyraabe\Summatives\GuildCarMastery\CarMastery.Models\obj\Debug\CarMastery.Models.dll
+C:\Users\sraab\Documents\online-net-sidneyraabe\Summatives\GuildCarMastery\CarMastery.Models\obj\Debug\CarMastery.Models.pdb
+C:\Users\sraab\Documents\online-net-sidneyraabe\Summatives\GuildCarMastery\CarMastery.Models\obj\Debug\CarMastery.Models.csproj.AssemblyReference.cache

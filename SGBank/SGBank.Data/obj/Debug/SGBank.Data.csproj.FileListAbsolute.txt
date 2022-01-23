@@ -1,0 +1,9 @@
+C:\Users\sraab\source\final project repos\SGBank\SGBank.Data\bin\Debug\SGBank.Data.dll
+C:\Users\sraab\source\final project repos\SGBank\SGBank.Data\bin\Debug\SGBank.Data.pdb
+C:\Users\sraab\source\final project repos\SGBank\SGBank.Data\bin\Debug\SGBank.Models.dll
+C:\Users\sraab\source\final project repos\SGBank\SGBank.Data\bin\Debug\SGBank.Models.pdb
+C:\Users\sraab\source\final project repos\SGBank\SGBank.Data\obj\Debug\SGBank.Data.csprojAssemblyReference.cache
+C:\Users\sraab\source\final project repos\SGBank\SGBank.Data\obj\Debug\SGBank.Data.csproj.CoreCompileInputs.cache
+C:\Users\sraab\source\final project repos\SGBank\SGBank.Data\obj\Debug\SGBank.Data.csproj.CopyComplete
+C:\Users\sraab\source\final project repos\SGBank\SGBank.Data\obj\Debug\SGBank.Data.dll
+C:\Users\sraab\source\final project repos\SGBank\SGBank.Data\obj\Debug\SGBank.Data.pdb

@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "Inventory";
+}
+
+<h2>Inventory Report</h2>
+
+<br />
+
+<strong>New Vehicles</strong>
+
+    <table class="table-bordered">
+        <thead>
+        <th scope="col" width="15%">Year</th>
+        <th scope="col" width="15%">Make</th>
+        <th scope="col" width="15%">Model</th>
+        <th scope="col" width="15%">Count</th>
+        <th scope="col" width="40%">Stock Value</th>
+        </thead>
+
+        @foreach (var vehicle in ViewBag.NewVehicles)
+        {
+            <tr>
+                <td>@vehicle.ModelDate</td>
+                <td>@vehicle.MakeName</td>
+                <td>@vehicle.ModelName</td>
+                <td>@vehicle.VehicleCount</td>
+                <td>@vehicle.TotalMsrpStockValue.ToString("c")</td>
+            </tr>
+        }
+    </table>
+<br />
+<strong>Used Vehicles</strong>
+<table class="table-bordered">
+    <thead>
+    <th scope="col" width="15%">Year</th>
+    <th scope="col" width="15%">Make</th>
+    <th scope="col" width="15%">Model</th>
+    <th scope="col" width="15%">Count</th>
+    <th scope="col" width="40%">Stock Value</th>
+    </thead>
+
+    @foreach (var vehicle in ViewBag.UsedVehicles)
+    {
+        <tr>
+            <td>@vehicle.ModelDate</td>
+            <td>@vehicle.MakeName</td>
+            <td>@vehicle.ModelName</td>
+            <td>@vehicle.VehicleCount</td>
+            <td>@vehicle.TotalMsrpStockValue.ToString("c")</td>
+        </tr>
+    }
+</table>
+

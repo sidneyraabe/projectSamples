@@ -1,0 +1,28 @@
+﻿@model IEnumerable<CarMastery.Models.Tables.User>
+
+@{
+    ViewBag.Title = "Users";
+}
+
+<h2>Users</h2>
+<p>Add not implemented</p>
+<table class="table-bordered">
+    <thead>
+    <th scope="col" width="10%">Last Name</th>
+    <th scope="col" width="10%">First Name</th>
+    <th scope="col" width="25%">Email</th>
+    <th scope="col" width="10%">Role</th>
+    <th scope="col" width="10%"> </th>
+    </thead>
+
+    @foreach (var user in Model)
+    {
+        <tr>
+            <td>@user.LastName</td>
+            <td>@user.FirstName</td>
+            <td>@user.Email</td>
+            <td>@user.RoleName</td>
+            <td>Edit (not implemented)</td>
+        </tr>
+    }
+</table>

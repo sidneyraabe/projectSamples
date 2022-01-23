@@ -1,0 +1,31 @@
+﻿@model IEnumerable<CarMastery.Models.Queries.Home.HomeFeaturedVehicleListingItem>
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div>
+    <h2 style="margin-top: 100px; margin-bottom: 50px; text-align: center;">Featured Vehicles</h2>
+
+    @foreach (var vehicleItem in Model)
+    {
+        <div class="col-md-3" style="border: hidden; margin-bottom: 10px">
+            <a href='@Url.Action("details", "inventory", new { id = vehicleItem.VehicleId })'>
+                <button type="button">
+                    @if (vehicleItem.ImageLocation != "")
+                    {
+                        <img style="text-align: center; max-width: 35%; max-height: 30px" src="@Url.Content("~/images/" + vehicleItem.ImageLocation)" />
+                    }
+                    else
+                    {
+                        <img style="text-align: center; max-width: 35%; max-height:30px" src="@Url.Content("~/images/LogoSmall.jpeg")" />
+                    }
+                    <div style="padding: 25px;">
+                        <p style="text-align: center;">@vehicleItem.ModelDate @vehicleItem.MakeName @vehicleItem.ModelName</p>
+                        <p style="text-align: center;">@vehicleItem.VehicleSalePrice.ToString("c")</p>
+                    </div>
+                </button>
+            </a>
+        </div>
+    }
+</div>

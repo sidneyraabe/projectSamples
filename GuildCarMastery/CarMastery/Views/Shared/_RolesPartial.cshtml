@@ -1,0 +1,19 @@
+﻿
+@{
+    var capsControllerName = this.ViewContext.RouteData.Values["controller"].ToString().ToUpper();
+}
+
+@* Workaround since roles and users are not functional. With functionality, would check aspnet user role *@
+
+<ul class="nav navbar-nav navbar-left">
+    @if (capsControllerName == "SALES" || capsControllerName == "ADMIN" || capsControllerName == "REPORTS")
+    {
+        <li>@Html.ActionLink("Sales", "Index", "Sales")</li>
+
+    }
+    @if (capsControllerName == "ADMIN")
+    {
+        <li>@Html.ActionLink("Admin", "Vehicles", "Admin")</li>
+    }
+</ul>
+

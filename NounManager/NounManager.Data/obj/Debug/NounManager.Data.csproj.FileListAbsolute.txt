@@ -1,0 +1,9 @@
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Data\bin\Debug\NounManager.Data.dll
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Data\bin\Debug\NounManager.Data.pdb
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Data\bin\Debug\NounManager.Models.dll
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Data\bin\Debug\NounManager.Models.pdb
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Data\obj\Debug\NounManager.Data.csprojAssemblyReference.cache
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Data\obj\Debug\NounManager.Data.csproj.CoreCompileInputs.cache
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Data\obj\Debug\NounManager.Data.csproj.CopyComplete
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Data\obj\Debug\NounManager.Data.dll
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Data\obj\Debug\NounManager.Data.pdb

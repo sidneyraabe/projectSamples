@@ -1,0 +1,16 @@
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager\bin\Release\NounManager.exe.config
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager\bin\Release\NounManager.exe
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager\bin\Release\NounManager.pdb
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager\bin\Release\NounManager.Controllers.dll
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager\bin\Release\NounManager.Views.dll
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager\bin\Release\NounManager.Data.dll
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager\bin\Release\NounManager.Models.dll
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager\bin\Release\NounManager.Controllers.pdb
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager\bin\Release\NounManager.Views.pdb
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager\bin\Release\NounManager.Data.pdb
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager\bin\Release\NounManager.Models.pdb
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager\obj\Release\NounManager.csprojAssemblyReference.cache
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager\obj\Release\NounManager.csproj.CoreCompileInputs.cache
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager\obj\Release\NounManager.csproj.CopyComplete
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager\obj\Release\NounManager.exe
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager\obj\Release\NounManager.pdb

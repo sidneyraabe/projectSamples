@@ -1,0 +1,13 @@
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Controllers\bin\Debug\NounManager.Controllers.dll
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Controllers\bin\Debug\NounManager.Controllers.pdb
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Controllers\bin\Debug\NounManager.Data.dll
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Controllers\bin\Debug\NounManager.Models.dll
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Controllers\bin\Debug\NounManager.Views.dll
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Controllers\bin\Debug\NounManager.Data.pdb
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Controllers\bin\Debug\NounManager.Models.pdb
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Controllers\bin\Debug\NounManager.Views.pdb
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Controllers\obj\Debug\NounManager.Controllers.csprojAssemblyReference.cache
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Controllers\obj\Debug\NounManager.Controllers.csproj.CoreCompileInputs.cache
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Controllers\obj\Debug\NounManager.Controllers.csproj.CopyComplete
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Controllers\obj\Debug\NounManager.Controllers.dll
+C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Controllers\obj\Debug\NounManager.Controllers.pdb

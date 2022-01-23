@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!--
+    Name: Sidney Raabe
+    Date Created: 7/18/2020
+    Most Recent Revision: 7/22/2020 
+-->
+<html lang="en">
+
+<head>
+    <title>Menu</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/restaurantStyles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Zetta&family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1315febb85.js" crossorigin="anonymous"></script>
+    <style>
+        article {
+            background:#DDFCAD; 
+            padding:50px; 
+            border-radius: 20px;
+        }
+        #menu {
+            text-align:center;
+        }
+        #menu th, #beverages th {
+            font-size:23px;
+            padding-top:20px;
+            padding-bottom:12px;
+        }
+        #beverages {
+            width: 100%;
+            border: 5px solid #82846D;
+        }
+        #beverages td {
+            border-top: 1px solid #82846D;
+        }
+        #beverages tr:nth-child(odd) {
+            background-color:white; 
+        }
+        #beverages tr:nth-child(even) {
+            background-color: #EEEEEE;
+        }
+
+    </style>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <noscript>
+        <div style="border: 1px solid red; padding: 10px">
+          <span style="color:red">This site is best viewed with JavaScript enabled!</span>
+        </div>
+    </noscript>
+
+    <div class="container">
+        <header>
+            <h1 class="jumbotron">The Rusty Grill</h1>
+        </header>
+
+        <nav>
+            <p><a class="btn badge-pill" href=index.html><i class="fas fa-home"></i></a> <a class="btn badge-pill" href=menu.html>Menu</a> <a class="btn badge-pill" href=contact-us.html>Contact Us</a></p>
+        </nav>
+            <article>
+                <table id="menu">
+                    <tr>
+                        <th>Burger and Fries</th>
+                        <th>Hot Dog and Chips</th>
+                        <th>Italian Sausage and Peppers</th>
+                    </tr>
+
+                    <tr valign=top>
+                        <td>An American Classic!<br />
+                            Your choice - with or without cheese<br />
+                            Pickle, onion, tomato, and lettuce<br />
+                            Served with our famous thick-cut<br />
+                            french fries.<br />
+                            $7.95</td>
+                        <td>A Summer Classic!<br />
+                            Your choice - white or wheat bun<br />
+                            Relish, mustard, and ketchup<br />
+                            Served with our house-made chips<br />
+                            $7.95</td>
+                        <td>An All-Time Favorite!<br />
+                            Your choice - mild or spicy Cole Slaw<br />
+                            Served with garlic mashers<br />
+                            $10.95</td>
+                    </tr>
+                    <tr>
+                        <th>Tenderloin Sandwich and Chips</th>
+                        <th>House Salad</th>
+                        <th>Brisket Sandwich and Fries</th>
+                    </tr>
+
+                    <tr valign=top>
+                        <td>Really Hits the Spot!<br />
+                            Plain or Sesame Seed Bun<br />
+                            Pickle, onion, tomato, and lettuce<br />
+                            Served with our house-made chips<br />
+                            $8.95</td>
+                        <td>On the Lighter Side<br />
+                            Your choice - with or without cheese<br />
+                            Iceberg lettuce, tomatoes, peppers<br />
+                            Thousand Island or Ranch Dressing<br />
+                            Served with a dinner roll<br />
+                            $6.95</td>
+                        <td>A Taste of Texas!<br />
+                            Smoked Brisket on thick-cut<br /> 
+                            Texas Toast<br />
+                            Cole Slaw<br />
+                            Served with our famous thick-cut<br />
+                            french fries<br />
+                            $7.95</td>
+                    <tr>
+                </table>    
+            <br><br>
+                <table id=beverages class="table">
+                    <tr>
+                        <th colspan=2>Beverages</th>
+                    </tr>
+                    <tr>
+                        <td>Root Beer</td>
+                        <td>$3.00</td>
+                    </tr>
+                    <tr>
+                        <td>Bottled Water</td>
+                        <td>$1.25</td>
+                    </tr>
+                    <tr>
+                        <td>Lemonade</td>
+                        <td>$1.00</td>
+                    </tr>
+                    <tr>
+                        <td>Iced Tea</td>
+                        <td>$1.25</td>
+                    </tr>
+                </table>
+            </article>
+        <footer>
+            <hr />
+            <p>9562 Linda St. Fairborn, OH 45324<br />
+            p. (202)-555-0199</p>
+        </footer>
+    </div>
+</body>
+
+</html>

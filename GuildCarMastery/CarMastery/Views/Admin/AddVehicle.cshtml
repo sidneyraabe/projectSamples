@@ -1,0 +1,168 @@
+﻿@model CarMastery.Models.VehicleAddViewModel
+
+@{
+    ViewBag.Title = "AddVehicle";
+}
+
+<div class="row">
+    <div class="col-md-8">
+        <h2>Add Vehicle</h2>
+        <h1 id="javascript">Javascript is required to view this page.</h1>
+        @using (Html.BeginForm("AddVehicle", "Admin", FormMethod.Post, new { enctype = "multipart/form-data", id = "formAddVehicle" }))
+        {
+            @Html.ValidationSummary()
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label>Make</label>
+                    @Html.DropDownListFor(m => m.SelectedMakeId, Model.Makes, new { @class = "form-control", @id = "makesDropdown", @onchange = "getModelsDropdown(this.value)" })
+                </div>
+
+                <div class="form-group col-md-6">
+                    <label>Model</label>
+                    @Html.DropDownListFor(m => m.Vehicle.ModelId, Model.Models, " - ", new { @class = "form-control", @id = "modelsDropdown", @disabled = "disabled" })
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label>Type</label>
+                    @Html.DropDownListFor(m => m.Vehicle.IsNew,
+                   new List<SelectListItem>
+                        {
+                        new SelectListItem { Text= "New", Value="true" },
+                        new SelectListItem { Text= "Used", Value= "false" },
+                    },
+                    new { @class = "form-control" }
+                    )
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Body Style</label>
+                    @Html.DropDownListFor(m => m.Vehicle.BodyStyleId, Model.BodyStyles, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label>Year</label>
+                    @Html.TextBoxFor(m => m.Vehicle.ModelDate, new { @class = "form-control" })
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Transmission</label>
+                    @Html.DropDownListFor(m => m.Vehicle.IsAutoTransmission,
+                   new List<SelectListItem>
+                        {
+                        new SelectListItem { Text= "Automatic", Value="true" },
+                        new SelectListItem { Text= "Manual", Value= "false" },
+                    },
+                    new { @class = "form-control" }
+                    )
+                </div>
+
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label>Color</label>
+                    @Html.DropDownListFor(m => m.Vehicle.ExteriorColorId, Model.ExteriorColors, new { @class = "form-control" })
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Interior</label>
+                    @Html.DropDownListFor(m => m.Vehicle.InteriorColorId, Model.InteriorColors, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label>Mileage</label>
+                    @Html.TextBoxFor(m => m.Vehicle.Mileage, new { @class = "form-control", @id = "mileageInput" })
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Vin #</label>
+                    @Html.TextBoxFor(m => m.Vehicle.Vin, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label>MSRP</label>
+                    @Html.TextBoxFor(m => m.Vehicle.Msrp, new { @class = "form-control" })
+                </div>
+                <div class="form-group col-md-6">
+                    <label>Sale Price</label>
+                    @Html.TextBoxFor(m => m.Vehicle.VehicleSalePrice, new { @class = "form-control" })
+                </div>
+            </div>
+
+            <div class="form-group col-md-12">
+                <label>Description</label>
+                @Html.TextAreaFor(m => m.Vehicle.VehicleDescription, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label>Picture</label>
+                <input id="ImageUpload" name="ImageUpload" type="file" class="form-control" />
+            </div>
+            <button class="btn-primary">Save</button>
+        }
+    </div>
+</div>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            $('#javascript').hide();
+            
+            $('select[name="SelectedMakeId"]').change();
+
+
+            $('#formAddVehicle').validate({
+rules: {
+        'Vehicle.Year': {
+        required: true,
+                    },
+                    'Vehicle.Mileage': {
+        required: true
+                    },
+                    'Vehicle.Vin': {
+        required: true,
+                    },
+                    'Vehicle.Msrp': {
+        required: true,
+                        number: true,
+                    },
+                    'Vehicle.VehicleSalePrice': {
+        required: true,
+                        number: true,
+                    },
+                    'Vehicle.VehicleDescription': {
+        required: true
+                    }
+    }
+
+});
+
+            });
+
+        function getModelsDropdown(makeId) {
+            $.ajax({
+                type: 'GET',
+                url: 'https://localhost:44321/api/admin/addvehicle?makeId=' + makeId,
+                success: function (results) {
+
+                    $('#modelsDropdown').empty().prop('disabled', false);
+
+                    $.each(results, function (index, updatedModel) {
+                        $("<option />")
+                            .attr("value", updatedModel.ModelId)
+                            .html(updatedModel.ModelName)
+                            .appendTo('#modelsDropdown');
+                    });
+                },
+                error: function () {
+                    alert("Error connecting to database. Please try again later.");
+                }
+            });
+        }
+    </script>
+}
+

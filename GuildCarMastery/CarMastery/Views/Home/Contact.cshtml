@@ -1,0 +1,42 @@
+﻿@model CarMastery.Models.ContactAddViewModel
+@{
+    ViewBag.Title = "Contact Us";
+}
+<h2>Contact Us</h2>
+@using (Html.BeginForm("Contact", "Home", FormMethod.Post, new { enctype = "multipart/form-data", id = "formAddContact" }))
+{
+    @Html.ValidationSummary()
+
+    <div class="container">
+        <div class="row" style="margin: 0 auto">
+            <div class="form-group col-md-4">
+                <div class="from-group col-md-12" style="padding-bottom: 10px">
+                    <label>Name</label>
+                    @Html.TextBoxFor(m => m.ContactUs.Name, new { @class = "form-control" })
+                </div>
+
+                <div class="form-group col-md-12" style="padding-bottom: 10px">
+                    <label>Email</label>
+                    @Html.TextBoxFor(m => m.ContactUs.Email, new { @class = "form-control" })
+                </div>
+                <div class="form-group col-md-12" style="padding-bottom: 10px">
+                    <label>Phone</label>
+                    @Html.TextBoxFor(m => m.ContactUs.Phone, new { @class = "form-control" })
+                </div>
+                <div class="form-group col-md-12" style="padding-bottom: 10px">
+                    <label>Message</label>
+                    @Html.TextAreaFor(m => m.ContactUs.Message, new { @class = "form-control" })
+                </div>
+                <div class="form-group col-md-12" style="padding-bottom: 10px">
+                    <button class="btn-primary">Submit</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div>
+                    <img src="@Url.Content("~/images/map.png")" style="overflow:auto" />
+                    <figcaption><strong>Good luck finding us! HAHAHAHAHAHAHA!</strong></figcaption>
+                </div>
+            </div>
+        </div>
+    </div>
+}

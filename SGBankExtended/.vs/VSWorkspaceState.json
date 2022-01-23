@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\SGBank.UI",
+    "\\SGBank.UI\\bin",
+    "\\SGBank.UI\\bin\\Debug",
+    "\\SGBank.UI\\Workflows"
+  ],
+  "SelectedNode": "\\SGBank.UI\\Workflows\\AccountCreateWorkflow.cs",
+  "PreviewInSolutionExplorer": false
+}

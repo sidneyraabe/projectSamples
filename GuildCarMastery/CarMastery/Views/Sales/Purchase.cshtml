@@ -1,0 +1,129 @@
+﻿@model CarMastery.Models.PurchaseViewModel
+@{
+    ViewBag.Title = "Purchase";
+}
+<h1>@ViewBag.Errors</h1>
+@if (Model.VehicleDetails.IsAvailable)
+{
+    <h2>Purchase</h2>
+    <div style="border-style: solid; overflow: auto; padding: 8px; margin-bottom: 10px;">
+        <div><h4>@Model.VehicleDetails.ModelDate @Model.VehicleDetails.MakeName @Model.VehicleDetails.ModelName </h4></div>
+        @if (Model.VehicleDetails.ImageLocation.IsEmpty())
+        {
+            <img class="col-md-2" style="max-width: 100%; max-height: auto;" alt="Vehicle Image" src="@Url.Content("~/Images/LogoSmall2.jpeg")" />
+        }
+        else
+        {
+            <img class="col-md-2" style="max-width: 100%; max-height: auto;" alt="Vehicle Image" src="@Url.Content("~/Images/" + Model.VehicleDetails.ImageLocation)" />
+        }
+        <table class="col-md-10">
+            <tr>
+                <td width="20%"><strong>Body Style:</strong> @Model.VehicleDetails.BodyStyleName</td>
+                <td width="50%"><strong>Interior:</strong> @Model.VehicleDetails.InteriorColorName</td>
+                <td width="20%"><strong>Sale Price:</strong> @Model.VehicleDetails.VehicleSalePrice.ToString("c")</td>
+            </tr>
+            <tr>
+                <td width="20%"><strong>Trans:</strong> @Model.VehicleDetails.TransmissionType</td>
+                <td width="50%"><strong>Mileage:</strong> @Model.VehicleDetails.Mileage</td>
+                <td width="20%"><strong>MSRP:</strong> @Model.VehicleDetails.Msrp.ToString("c")</td>
+            </tr>
+            <tr>
+                <td width="20%"><strong>Color</strong> @Model.VehicleDetails.ExteriorColorName</td>
+                <td width="50%"><strong>VIN#:</strong> @Model.VehicleDetails.Vin</td>
+            </tr>
+        </table>
+        <div><p><strong>Description:</strong> @Model.VehicleDetails.VehicleDescription</p></div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <h2>Sales Information</h2>
+            @using (Html.BeginForm("Purchase", "Sales", FormMethod.Post, new { enctype = "multipart/form-data", id = "formAddPurchase" }))
+            {
+                @Html.HiddenFor(m => @Model.VehicleDetails.VehicleSalePrice)
+                @Html.HiddenFor(m => @Model.VehicleDetails.VehicleId)
+                @Html.HiddenFor(m => @Model.VehicleDetails.Msrp)
+                @*@Html.HiddenFor(m => @Model.Sale.VehicleId)*@
+
+                @Html.ValidationSummary()
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>Name</label>
+                        @Html.TextBoxFor(m => m.Sale.CustomerName, new { @class = "form-control" })
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label>Phone</label>
+                        @Html.TextBoxFor(m => m.Sale.Phone, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label>Email</label>
+                        @Html.TextBoxFor(m => m.Sale.Email, new { @class = "form-control" })
+                    </div>
+
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>Street 1</label>
+                        @Html.TextBoxFor(m => m.Sale.Street1, new { @class = "form-control" })
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label>Street 2</label>
+                        @Html.TextBoxFor(m => m.Sale.Street2, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>City</label>
+                        @Html.TextBoxFor(m => m.Sale.City, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>State</label>
+                        @Html.DropDownListFor(m => m.Sale.StateId, Model.States, new { @class = "form-control" })
+                    </div>
+
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label>Zipcode</label>
+                        @Html.TextBoxFor(m => m.Sale.Zip, new { @class = "form-control" })
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label>Purchase Price</label>
+                        @Html.TextBoxFor(m => m.Sale.Price, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label>Purchase Type</label>
+                        @Html.DropDownListFor(m => m.Sale.PurchaseTypeId, Model.PurchaseType, new { @class = "form-control" })
+                    </div>
+
+
+                </div>
+                <button class="btn-primary">Save</button>
+            }
+        </div>
+    </div>
+}
+else
+{
+    <div style="border-style: solid; overflow: auto; padding: 8px; margin-bottom: 10px;">
+        <h1 style="text-align: center">This vehicle is unavailable for purchase.</h1>
+    </div>
+    <a href='@Url.Action("index", "sales")'>
+        <button class="btn-info">Available vehicles</button>
+    </a>
+}
+
+

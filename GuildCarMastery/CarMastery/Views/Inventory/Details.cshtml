@@ -1,0 +1,38 @@
+﻿@model CarMastery.Models.Queries.Inventory.VehicleDetailsItem
+@{
+    ViewBag.Title = "Vehicle Details";
+}
+
+<h2>Vehicle Details</h2>
+
+<div style="border-style: solid; overflow: auto; padding: 8px; margin-bottom: 10px;">
+    <div><h4>@Model.ModelDate @Model.MakeName @Model.ModelName </h4></div>
+    @if (Model.ImageLocation.IsEmpty())
+    {
+        <img class="col-md-2" style="max-width: 100%; max-height: auto;" alt="Vehicle Image" src="@Url.Content("~/Images/LogoSmall2.jpeg")" />
+    }
+    else
+    {
+        <img class="col-md-2" style="max-width: 100%; max-height: auto;" alt="Vehicle Image" src="@Url.Content("~/Images/" + Model.ImageLocation)" />
+    }
+    <table class="col-md-10">
+        <tr>
+            <td width="20%"><strong>Body Style:</strong> @Model.BodyStyleName</td>
+            <td width="50%"><strong>Interior:</strong> @Model.InteriorColorName</td>
+            <td width="20%"><strong>Sale Price:</strong> @Model.VehicleSalePrice.ToString("c")</td>
+        </tr>
+        <tr>
+            <td width="20%"><strong>Trans:</strong> @Model.TransmissionType</td>
+            <td width="50%"><strong>Mileage:</strong> @Model.Mileage</td>
+            <td width="20%"><strong>MSRP:</strong> @Model.Msrp.ToString("c")</td>
+        </tr>
+        <tr>
+            <td width="20%"><strong>Color</strong> @Model.ExteriorColorName</td>
+            <td width="50%"><strong>VIN#:</strong> @Model.Vin</td>
+        </tr>
+    </table>
+    <div><p><strong>Description:</strong> @Model.VehicleDescription</p></div>
+    <a href='@Url.Action("contact", "home", new { vin = Model.Vin })'>
+        <button style="float: right;" >Contact Us</button>
+    </a>
+</div>
