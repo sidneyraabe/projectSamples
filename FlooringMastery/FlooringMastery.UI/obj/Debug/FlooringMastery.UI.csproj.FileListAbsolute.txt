@@ -26,3 +26,17 @@ C:\Users\sraab\OneDrive\Desktop\FlooringMastery\FlooringMastery.UI\obj\Debug\Flo
 C:\Users\sraab\OneDrive\Desktop\FlooringMastery\FlooringMastery.UI\obj\Debug\FlooringMastery.UI.csproj.CopyComplete
 C:\Users\sraab\OneDrive\Desktop\FlooringMastery\FlooringMastery.UI\obj\Debug\FlooringMastery.UI.exe
 C:\Users\sraab\OneDrive\Desktop\FlooringMastery\FlooringMastery.UI\obj\Debug\FlooringMastery.UI.pdb
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.UI\bin\Debug\FlooringMastery.UI.exe.config
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.UI\bin\Debug\FlooringMastery.UI.exe
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.UI\bin\Debug\FlooringMastery.UI.pdb
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.UI\bin\Debug\FlooringMastery.BLL.dll
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.UI\bin\Debug\FlooringMastery.Models.dll
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.UI\bin\Debug\FlooringMastery.Data.dll
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.UI\bin\Debug\FlooringMastery.BLL.pdb
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.UI\bin\Debug\FlooringMastery.Models.pdb
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.UI\bin\Debug\FlooringMastery.Data.pdb
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.UI\obj\Debug\FlooringMastery.UI.csproj.AssemblyReference.cache
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.UI\obj\Debug\FlooringMastery.UI.csproj.CoreCompileInputs.cache
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.UI\obj\Debug\FlooringMastery.UI.csproj.CopyComplete
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.UI\obj\Debug\FlooringMastery.UI.exe
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.UI\obj\Debug\FlooringMastery.UI.pdb

@@ -10,3 +10,9 @@ C:\Users\sraab\source\final project repos\SGBankExtended\SGBank.Models\obj\Debug
 C:\Users\sraab\source\final project repos\SGBankExtended\SGBank.Models\obj\Debug\SGBank.Models.csproj.CoreCompileInputs.cache
 C:\Users\sraab\source\final project repos\SGBankExtended\SGBank.Models\obj\Debug\SGBank.Models.dll
 C:\Users\sraab\source\final project repos\SGBankExtended\SGBank.Models\obj\Debug\SGBank.Models.pdb
+C:\Users\sraab\Documents\projectSamples\SGBankExtended\SGBank.Models\bin\Debug\SGBank.Models.dll
+C:\Users\sraab\Documents\projectSamples\SGBankExtended\SGBank.Models\bin\Debug\SGBank.Models.pdb
+C:\Users\sraab\Documents\projectSamples\SGBankExtended\SGBank.Models\obj\Debug\SGBank.Models.csproj.AssemblyReference.cache
+C:\Users\sraab\Documents\projectSamples\SGBankExtended\SGBank.Models\obj\Debug\SGBank.Models.csproj.CoreCompileInputs.cache
+C:\Users\sraab\Documents\projectSamples\SGBankExtended\SGBank.Models\obj\Debug\SGBank.Models.dll
+C:\Users\sraab\Documents\projectSamples\SGBankExtended\SGBank.Models\obj\Debug\SGBank.Models.pdb

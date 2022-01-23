@@ -48,12 +48,15 @@ function addNickel() {
 
 
 //AJAX CALLS
+
+var APIurl='http://vending.us-east-1.elasticbeanstalk.com'
+
 function loadFoodInfo(){
     var foodInfo = $('#foodInfo').empty();
 
     $.ajax({
         type: 'GET',
-        url: 'http://tsg-vending.herokuapp.com/items',
+        url: APIurl + '/items',
         success: function(buttonGrid) {
             $.each(buttonGrid, function(index, food){
                 var id = food.id;
@@ -84,7 +87,7 @@ function vendItem(){
     var selectedItemID = $('#itemMessageBox').attr('placeholder');
     $.ajax({
         type: 'POST',
-        url: 'http://tsg-vending.herokuapp.com/money/' + balance + '/item/' + selectedItemID,
+        url: APIurl + '/money/' + balance + '/item/' + selectedItemID,
         
         success: function(data, status) {
             balance = 0.00;

@@ -7,3 +7,12 @@ C:\Users\sraab\source\final project repos\FlooringMastery\FlooringMastery.Data\o
 C:\Users\sraab\source\final project repos\FlooringMastery\FlooringMastery.Data\obj\Debug\FlooringMastery.Data.csproj.CopyComplete
 C:\Users\sraab\source\final project repos\FlooringMastery\FlooringMastery.Data\obj\Debug\FlooringMastery.Data.dll
 C:\Users\sraab\source\final project repos\FlooringMastery\FlooringMastery.Data\obj\Debug\FlooringMastery.Data.pdb
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.Data\bin\Debug\FlooringMastery.Data.dll
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.Data\bin\Debug\FlooringMastery.Data.pdb
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.Data\bin\Debug\FlooringMastery.Models.dll
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.Data\bin\Debug\FlooringMastery.Models.pdb
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.Data\obj\Debug\FlooringMastery.Data.csproj.AssemblyReference.cache
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.Data\obj\Debug\FlooringMastery.Data.csproj.CoreCompileInputs.cache
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.Data\obj\Debug\FlooringMastery.Data.csproj.CopyComplete
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.Data\obj\Debug\FlooringMastery.Data.dll
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.Data\obj\Debug\FlooringMastery.Data.pdb

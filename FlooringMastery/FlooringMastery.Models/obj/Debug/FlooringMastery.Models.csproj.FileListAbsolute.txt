@@ -4,3 +4,9 @@ C:\Users\sraab\source\final project repos\FlooringMastery\FlooringMastery.Models
 C:\Users\sraab\source\final project repos\FlooringMastery\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.csproj.CoreCompileInputs.cache
 C:\Users\sraab\source\final project repos\FlooringMastery\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.dll
 C:\Users\sraab\source\final project repos\FlooringMastery\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.pdb
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.Models\bin\Debug\FlooringMastery.Models.dll
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.Models\bin\Debug\FlooringMastery.Models.pdb
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.csproj.AssemblyReference.cache
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.csproj.CoreCompileInputs.cache
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.dll
+C:\Users\sraab\Documents\projectSamples\FlooringMastery\FlooringMastery.Models\obj\Debug\FlooringMastery.Models.pdb
