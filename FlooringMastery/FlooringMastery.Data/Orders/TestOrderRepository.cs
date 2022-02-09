@@ -30,7 +30,7 @@ namespace FlooringMastery.Data
         public List<Order> LoadOrder(string OrderDate)
         {
             if (OrderDate != "06012013")
-                return null; // bs'd... foreach o in _orders, match orderdate... how to match order date?
+                return null;
             _orders.Add(_order);
             return _orders;
         }

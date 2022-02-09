@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jzK6aFL4Oy35SoWeYwOqAjT5sRuSYR/9IFpdWsv/umIbR5gnd+a4741th7nD6J1zA3hgdpjBwZqI9dJNpLL7Iw==",
+  "dgSpecHash": "byk2/uB7oA1+jeIe5Ym1BLmQYcBHrriaJ84fEO0TEi2/fxeBHEpNIJxbRhWNnBpxmkUxOXIFR++h903mxLewUA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sraab\\source\\repos\\BetterYahtzee\\BetterYahtzee.BLL\\BetterYahtzee.BLL.csproj",
+  "projectFilePath": "C:\\Users\\sraab\\Documents\\projectSamples\\BetterYahtzee\\BetterYahtzee.BLL\\BetterYahtzee.BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sraab\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\sraab\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
