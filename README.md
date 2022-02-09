@@ -50,4 +50,6 @@ Order of creation:
 - Building upon previous projects, this is a full web application for a car dealership, with views for customers, sales roles, and admin users.
 - Wireframes were supplied, I created an ERD, built the database, test data, and stored procedures, and then a unit-tested ASP.NET web application.
 
-:grey_exclamation: *I am currently working on fixing ASP.NET Identity integration as well as beautifying the UI. As for ASP.NET Identity, something went wrong and currently, authentication is handled by feeding in an authenticated user ID for every view.*
+```diff
+- I am currently working on fixing ASP.NET Identity integration as well as beautifying the UI. As for ASP.NET Identity, something went wrong and currently, authentication is handled by feeding in an authenticated user ID for every view.
+```
