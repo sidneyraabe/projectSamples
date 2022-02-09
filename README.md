@@ -37,19 +37,21 @@ Order of creation:
 
 :grey_exclamation: *psst, there's an Easter Egg if you input the Konami Code ;)*
 
-## DVD Library (Oct, 2021)
-
+## DVD Library 
+(Oct, 2021)
 - This is code for a web service, SQL queries to create and populate a database, and a seperate HTML/javascript project as an interface for a DVD library application.
 - Functionality for adding, deleting, editing, and viewing a list DVDs.
 - This builds on all practices of previous projects, including layered architecture, dependency injection, AJAX, Bootstrap, and utilizes ADO.NET
 - All API calls were tested using Postman
 
-## GuildCarMastery (Jan, 2022)
-
+## GuildCarMastery 
+(Jan, 2022)
 - This is the culmination of all my study at the Software Guild.
 - Building upon previous projects, this is a full web application for a car dealership, with views for customers, sales roles, and admin users.
 - Wireframes were supplied, I created an ERD, built the database, test data, and stored procedures, and then a unit-tested ASP.NET web application.
 
 ```diff
-- I am currently working on fixing ASP.NET Identity integration as well as beautifying the UI. As for ASP.NET Identity, something went wrong and currently, authentication is handled by feeding in an authenticated user ID for every view.
+- I am currently working on fixing ASP.NET Identity integration as well as beautifying the UI. 
+- As for ASP.NET Identity, something went wrong and currently, authentication is handled by 
+- feeding in an authenticated user ID for every view.
 ```
