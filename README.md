@@ -4,13 +4,6 @@ This is a culmination of all of my final projects while studying in The Software
 
 Order of creation: 
 
-## BetterYahtzee 
-(Sep, 2020)
-- This was a project that wasn't necessary to the course, but I had the inclination to make my own Yahtzee game.
-- This was a huge stretch considering how much coding knowledge I had at the time, but it all works.
-- Made with layered architecture, split into BLL and UI layers.
-- I need to revisit and refactor this program now with one year of coding knowledge under my belt, but I'm really proud of how pretty everything looks.
-
 ## Noun-manager 
 (Oct, 2020)
 - My first basic CRUD console application.
