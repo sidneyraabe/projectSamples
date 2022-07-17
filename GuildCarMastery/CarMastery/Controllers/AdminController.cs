@@ -149,14 +149,8 @@ namespace CarMastery.Controllers
                 try
                 {
                     List<Vehicle> vehicles = repo.GetAll();
-                    int id = 0;
-                    foreach (Vehicle v in vehicles)
-                    {
-                        if (v.VehicleId > id)
-                            id = v.VehicleId;
-                    }
-                    id += 1; //this is gross
-
+                    
+                    int id = vehicles.OrderByDescending(v => v.VehicleId).Select(v => v.VehicleId).First() + 1;
 
                     if (model.ImageUpload != null && model.ImageUpload.ContentLength > 0)
                     {
@@ -247,8 +241,9 @@ namespace CarMastery.Controllers
                         string fileName = "inventory-" + model.Vehicle.VehicleId + extension;
                         var filePath = Path.Combine(savepath, fileName);
 
-                        //To do: refactor...
-                        //vrepo.getVehicle(vehicleId).ImageLocation (needs instantiation)
+                        //TODO - fix editvehicle image upload
+                        // allow for optional image replace
+                        // replacing image with same one throws exception
                         string[] extensionsArray = new string[]
                         {
                             ".jpg",

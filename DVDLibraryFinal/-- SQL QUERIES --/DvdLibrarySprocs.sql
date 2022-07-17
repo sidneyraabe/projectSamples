@@ -60,7 +60,7 @@ AS
 
 SELECT Id, Title, ReleaseYear, Director, Rating, Notes
 FROM DVD
-WHERE Title LIKE @Title
+WHERE Title LIKE '%' + @Title + '%'
 ORDER BY Id
 
 GO
@@ -106,7 +106,7 @@ AS
 
 SELECT Id, Title, ReleaseYear, Director, Rating, Notes
 FROM DVD
-WHERE Director LIKE @Director
+WHERE Director LIKE '%' + @Director + '%'
 ORDER BY Id
 
 GO

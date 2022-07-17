@@ -7,3 +7,12 @@ C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Views\obj\Release\N
 C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Views\obj\Release\NounManager.Views.csproj.CopyComplete
 C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Views\obj\Release\NounManager.Views.dll
 C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Views\obj\Release\NounManager.Views.pdb
+C:\Users\sraab\Documents\projectSamples\NounManager\NounManager.Views\bin\Release\NounManager.Views.dll
+C:\Users\sraab\Documents\projectSamples\NounManager\NounManager.Views\bin\Release\NounManager.Views.pdb
+C:\Users\sraab\Documents\projectSamples\NounManager\NounManager.Views\bin\Release\NounManager.Models.dll
+C:\Users\sraab\Documents\projectSamples\NounManager\NounManager.Views\bin\Release\NounManager.Models.pdb
+C:\Users\sraab\Documents\projectSamples\NounManager\NounManager.Views\obj\Release\NounManager.Views.csproj.AssemblyReference.cache
+C:\Users\sraab\Documents\projectSamples\NounManager\NounManager.Views\obj\Release\NounManager.Views.csproj.CoreCompileInputs.cache
+C:\Users\sraab\Documents\projectSamples\NounManager\NounManager.Views\obj\Release\NounManager.Views.csproj.CopyComplete
+C:\Users\sraab\Documents\projectSamples\NounManager\NounManager.Views\obj\Release\NounManager.Views.dll
+C:\Users\sraab\Documents\projectSamples\NounManager\NounManager.Views\obj\Release\NounManager.Views.pdb

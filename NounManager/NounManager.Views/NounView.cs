@@ -37,7 +37,7 @@ namespace NounManager.Views
 
         }
 
-        public Noun GetNewNounInfo() // I thought assigning is to be done in the repo, did it that way for my edit flow
+        public Noun GetNewNounInfo()
         {
             Noun currentNoun = new Noun();
             currentNoun.Title = GetStringFromUser("Enter title: ");
@@ -50,10 +50,22 @@ namespace NounManager.Views
         public void DisplayNoun(Noun noun)
         {
             string format = " {0,-3}│ {1,-31} │ {2,-22} │ {3,4} │   {4,-8}";
-            if (noun != null)
-                Console.WriteLine(format, noun.Id, noun.Title, noun.Author, noun.DatePublished, noun.IsAwardWinner);
-            else
-                NotFound();
+
+                if (noun != null)
+                {
+                    string title = noun.Title;
+                    string author = noun.Author;
+
+                    if (title.Length > 28)
+                    title = title.Substring(0, 28) + "...";
+
+                    if (author.Length > 18)
+                    author = author.Substring(0, 18) + "...";
+
+                    Console.WriteLine(format, noun.Id, title, author, noun.DatePublished, noun.IsAwardWinner);
+                }
+                else
+                    NotFound();
         }
 
         public void DisplayCategories()
@@ -162,6 +174,7 @@ namespace NounManager.Views
         private void WriteError()
         {
             Console.WriteLine("Invalid Input - Please Try Again.");
+            Console.ReadKey();
         }
 
         public void Wait()

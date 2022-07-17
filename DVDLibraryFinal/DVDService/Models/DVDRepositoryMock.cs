@@ -57,15 +57,12 @@ namespace DVDService.Models
         }
         public void Create(DVD newDVD)
         {
+            newDVD.Id = 0;
             if (_dvds.Any())
             {
                 newDVD.Id = _dvds.Max(d => d.Id) + 1;
             }
-            else
-            {
-                newDVD.Id = 0;
-            }
-
+            
             _dvds.Add(newDVD);
         }
 
@@ -86,6 +83,9 @@ namespace DVDService.Models
             var _searchList = from DVD in _dvds
                               where DVD.Title.Contains(searchString)
                               select DVD;
+
+            // method:
+            //_searchList = _dvds.Where(x => x.Title.Contains(searchString));
             List<DVD> _results = new List<DVD>();
 
             foreach (DVD d in _searchList)

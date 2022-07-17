@@ -7,3 +7,12 @@ C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Data\obj\Release\No
 C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Data\obj\Release\NounManager.Data.csproj.CopyComplete
 C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Data\obj\Release\NounManager.Data.dll
 C:\Users\sraab\Downloads\NounManager\NounManager\NounManager.Data\obj\Release\NounManager.Data.pdb
+C:\Users\sraab\Documents\projectSamples\NounManager\NounManager.Data\bin\Release\NounManager.Data.dll
+C:\Users\sraab\Documents\projectSamples\NounManager\NounManager.Data\bin\Release\NounManager.Data.pdb
+C:\Users\sraab\Documents\projectSamples\NounManager\NounManager.Data\bin\Release\NounManager.Models.dll
+C:\Users\sraab\Documents\projectSamples\NounManager\NounManager.Data\bin\Release\NounManager.Models.pdb
+C:\Users\sraab\Documents\projectSamples\NounManager\NounManager.Data\obj\Release\NounManager.Data.csproj.AssemblyReference.cache
+C:\Users\sraab\Documents\projectSamples\NounManager\NounManager.Data\obj\Release\NounManager.Data.csproj.CoreCompileInputs.cache
+C:\Users\sraab\Documents\projectSamples\NounManager\NounManager.Data\obj\Release\NounManager.Data.csproj.CopyComplete
+C:\Users\sraab\Documents\projectSamples\NounManager\NounManager.Data\obj\Release\NounManager.Data.dll
+C:\Users\sraab\Documents\projectSamples\NounManager\NounManager.Data\obj\Release\NounManager.Data.pdb

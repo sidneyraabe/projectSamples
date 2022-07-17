@@ -66,7 +66,7 @@ namespace NounManager.Controllers
 
             view.Clear();
             view.DisplayCategories();
-            foreach (Noun noun in currentList) // my first foreach loop! very useful.
+            foreach (Noun noun in currentList)
                 view.DisplayNoun(noun);
 
             view.Wait();

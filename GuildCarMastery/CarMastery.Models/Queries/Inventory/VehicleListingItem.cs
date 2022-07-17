@@ -13,7 +13,6 @@ namespace CarMastery.Models.Queries
         public int ModelDate { get; set; }
         public string MakeName { get; set; }
         public string ModelName { get; set; }
-
         public string BodyStyleName { get; set; }
         public bool IsAutoTransmission { get; set; }
         public string InteriorColorName { get; set; }
