@@ -1,14 +1,8 @@
 # projectSamples
 
-This is a culmination of all of my final projects while studying in The Software Guild's C#/.NET bootcamp.
+This is a collection of some of my projects
 
 Order of creation: 
-
-## Noun-manager 
-(Oct, 2020)
-- My first basic CRUD console application.
-- The assignment was to make an application that keeps track of any noun (hence the name), mine keeps tracks of books.
-- Books are saved to temporary in-memory storage
 
 ## Flooring Mastery 
 (Jan, 2021)
@@ -42,9 +36,3 @@ Order of creation:
 - This is the culmination of all my study at the Software Guild.
 - Building upon previous projects, this is a full web application for a car dealership, with views for customers, sales roles, and admin users.
 - Wireframes were supplied, I created an ERD, built the database, test data, and stored procedures, and then a unit-tested ASP.NET web application.
-
-```diff
-- I am currently working on fixing ASP.NET Identity integration as well as beautifying the UI. 
-- As for ASP.NET Identity, something went wrong and currently, authentication is handled by 
-- feeding in an authenticated user ID for every view.
-```

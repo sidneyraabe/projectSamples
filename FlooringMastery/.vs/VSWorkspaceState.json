@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\FlooringMastery.BLL",
+    "\\FlooringMastery.BLL\\Orders",
+    "\\FlooringMastery.BLL\\Products",
+    "\\FlooringMastery.Data",
+    "\\FlooringMastery.Data\\Orders",
+    "\\FlooringMastery.Data\\Products",
+    "\\FlooringMastery.Data\\Taxes",
+    "\\FlooringMasteryTests",
+    "\\packages"
+  ],
+  "SelectedNode": "\\packages\\MSTest.TestAdapter.2.1.1",
+  "PreviewInSolutionExplorer": false
+}
